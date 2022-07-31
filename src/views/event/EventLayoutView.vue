@@ -5,9 +5,11 @@
       <router-link :to="{ name: 'EventDetailView', params: { id } }">
         Details
       </router-link>
+      |
       <router-link :to="{ name: 'EventRegister', params: { id } }">
         Register
       </router-link>
+      |
       <router-link :to="{ name: 'EventEdit', params: { id } }">
         Edit
       </router-link>

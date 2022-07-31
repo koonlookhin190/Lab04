@@ -18,8 +18,6 @@
       >
         Prev Page</router-link
       >
-    </div>
-    <div class="pagination">
       <router-link
         id="page-next"
         :to="{
@@ -99,7 +97,6 @@ export default {
   flex-direction: column;
   align-items: center;
 }
-
 .pagination {
   display: flex;
   width: 290px;
